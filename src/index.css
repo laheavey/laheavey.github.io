@@ -1,0 +1,16 @@
+* {
+  outline: solid 1px red;
+}
+
+.headshotImg {
+  /* max-height: 200px; */
+  height: 15rem;
+  -webkit-mask-image: radial-gradient(circle, black 55%, rgba(0, 0, 0, 0) 50%);
+  mask-image: radial-gradient(circle, black 55%, rgba(0, 0, 0, 0) 50%);
+  /* float: left; */
+  /* margin-left: 10%; */
+}
+
+.pageContent {
+  margin-top: 10rem;
+}
