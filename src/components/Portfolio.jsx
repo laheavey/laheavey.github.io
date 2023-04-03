@@ -26,7 +26,9 @@ export default function Portfolio () {
           A web app showcasing modern & historic points of interest located along MN Metro 
           Transit's Green Line lightrail. The purpose of this app was to increase transit 
           ridership, promote tourism in the Twin Cities area, and satisfy my own curiosity 
-          about what the hell I'm looking at on my commute.<br/><br/>
+          about what I'm looking at on my commute.<br/><br/>
+          </Typography>
+          <Typography variant="overline">
           <a href="https://mighty-crag-14368.herokuapp.com/">Live Preview</a> // <a href="https://github.com/laheavey/route-around">Documentation</a>
           </Typography>
           
@@ -47,10 +49,19 @@ export default function Portfolio () {
           consultants. The resulting product enables them to seamlessly create & access client 
           information, review and edit assessment details, and access dynamically created 
           presentations and reports.<br/><br/>
+          </Typography>
+          <Typography variant="overline">
           <a href="https://desolate-everglades-87798.herokuapp.com/">Live Preview</a> // <a href="https://github.com/laheavey/growth-operators">Documentation</a>
           </Typography>
           </div>
       </div>
+      <p>
+        <Typography variant="overline">
+          <a href="#page-top">
+            Back to Top   
+          </a>
+        </Typography>
+        </p>
 
     </section>
    
