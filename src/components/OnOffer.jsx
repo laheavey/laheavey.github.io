@@ -1,11 +1,11 @@
 import React from "react";
+import Typography from '@mui/material/Typography';
 
 export default function OnOffer () {
   return (
-    <section id="OnOffer">
-      <h2 className="sectionHeader">What I can offer you:</h2>
-        
-        <p>Besides my perpetually sunny disposition...</p>
+    <section id="OnOffer">        
+        <Typography variant="h4" sx={{fontWeight: 'light'}}>What I can offer you:</Typography>
+        <Typography variant="subtitle1">...beyond a perpetually sunny disposition</Typography>
         <ul>
           <li>My Resume</li>
           <li>My Contact Info, if you'd like to get in touch</li>

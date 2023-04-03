@@ -1,16 +1,77 @@
-* {
+/* * {
   outline: solid 1px red;
+} */
+
+body {
+  margin: 0;
 }
 
 .headshotImg {
-  /* max-height: 200px; */
   height: 15rem;
   -webkit-mask-image: radial-gradient(circle, black 55%, rgba(0, 0, 0, 0) 50%);
   mask-image: radial-gradient(circle, black 55%, rgba(0, 0, 0, 0) 50%);
-  /* float: left; */
-  /* margin-left: 10%; */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10rem;
 }
 
-.pageContent {
+#route-around-gif {
+  height: 12rem;
+  align-self: center;
+}
+
+.img-container {
   margin-top: 10rem;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.content {
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  /* height: 100%; */
+  scroll-snap-align: start inherit;
+}
+
+.content-container {
+  scroll-snap-type: x mandatory;
+  margin-right: 15%;
+}
+
+.icon-container {
+  margin: 0.5rem;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 27rem;
+}
+
+.projectItem {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  /* flex-flow: row wrap; */
+  align-items: center;
+}
+
+#projectPortfolio {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.projectInfo, .projectImage {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.projectInfo {
+  max-width: 75%;
+  /* margin-left: 1.5rem; */
+}
+
+.screenshot {
+  height: 12rem;
 }
