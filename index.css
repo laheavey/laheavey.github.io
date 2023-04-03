@@ -8,6 +8,33 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 1.235px;
+  letter-spacing: 0.25px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.6px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
 }
 
 .headshotImg {
@@ -17,11 +44,6 @@ body {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 10rem;
-}
-
-#route-around-gif {
-  height: 12rem;
-  align-self: center;
 }
 
 .img-container {
@@ -51,6 +73,22 @@ body {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 27rem;
+}
+
+.fa-brands, .fa-file-pdf {
+  margin-right: 1rem;
+}
+
+.fa-file-pdf {
+  color: #3D5936;
+}
+
+.fa-linkedin {
+  color: #1976d2;
+}
+
+.fa-envelope {
+  color: #F87D3A;
 }
 
 .projectItem {
@@ -84,8 +122,16 @@ body {
   transition: background-color 1s;
   /* background-color: #E9D758; */
   color: black;
+  font-size: 12px;
+  line-height: 2.66;
+  letter-spacing: 1;
+  font-weight: 300;
 }
 
 .content a:hover {
   background-color: #EFE281;
+}
+
+.icon-container a:link{
+  text-decoration: none;
 }

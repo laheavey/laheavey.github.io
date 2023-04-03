@@ -2,33 +2,18 @@ import React from "react";
 import headshotImg from '../images/DSC09551.jpg';
 
 import Portfolio from "./Portfolio";
-import OnOffer from "./OnOffer";
-import ReachOut from "./ReachOut";
+import OnOffer from "../src/components/OnOffer";
 
-import Box from '@mui/material/Box';
-import Container from "@mui/material/Container";
-import Grid from '@mui/material/Unstable_Grid2';
-import Stack from '@mui/material/Stack';
-import Paper from '@mui/material/Paper';
-import { styled } from '@mui/material/styles';
+
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import EmailIcon from '@mui/icons-material/Email';
 import { grey } from '@mui/material/colors';
-import { Avatar } from "@mui/material";
 import Typography from '@mui/material/Typography';
 
-// const Item = styled(Paper)(({ theme }) => ({
-//   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-//   ...theme.typography.body2,
-//   padding: theme.spacing(1),
-//   textAlign: 'center',
-//   color: theme.palette.text.secondary,
-// }));
 
 export default function App () {
-  document.title = 'Lauren Heavey';
   return (
     <div className="flex-container">
       <div  className="img-container">
