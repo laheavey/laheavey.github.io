@@ -28,6 +28,7 @@ h2 {
   line-height: 1.235px;
   letter-spacing: 0.25px;
   font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -35,6 +36,7 @@ h3 {
   line-height: 1.6px;
   letter-spacing: 0.15px;
   font-weight: 500;
+  
 }
 
 .headshotImg {
@@ -65,7 +67,6 @@ h3 {
 .content-container {
   scroll-snap-type: x mandatory;
   margin-right: 15%;
-
 }
 
 .icon-container {
@@ -95,13 +96,12 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
-  /* flex-flow: row wrap; */
+  flex-flow: column wrap;
   align-items: center;
 }
 
 #projectPortfolio {
   display: flex;
-  flex-flow: column wrap;
 }
 
 .projectInfo, .projectImage {
