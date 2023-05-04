@@ -2,6 +2,61 @@
   outline: solid 1px red;
 } */
 
+/* Extra large screens, TV */
+@media (min-width: 1201px) {
+  /* h1 { line-height: 1.2; }
+  h2 { line-height: 1.235px; }
+  h3 { line-height: 1.6px; } */
+
+  #projectPortfolio { flex-flow: row wrap; }
+  .projectItem { align-items: center; }
+  .projectInfo { max-width: 75%; }
+  .img-container {
+    margin-left: 10%;
+    text-align: center;
+  }
+  .headshotImg { height: 15rem; }
+  .content-container { margin-right: 15%; }
+}
+
+/* Desktops, large screens */
+@media (max-width: 1200px) {
+  #projectPortfolio { flex-flow: column wrap;}
+  .screenshot {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .img-container {
+    margin-left: 10%;
+    text-align: center;
+  }
+  .headshotImg { height: 15rem; }
+  .content-container { margin-right: 15%; }
+}
+
+@media (max-width: 828px) {
+  .screenshot {
+    float: left;
+    margin: 1rem;
+  }
+}
+
+/* Small screens, laptops */
+@media (max-width: 1024px) {
+
+}
+
+/* iPads, tablets */
+@media (max-width: 768px) {
+
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,30 +72,30 @@ body {
 
 h1 {
   font-size: 60px;
-  line-height: 1.2;
   letter-spacing: -0.5px;
   font-weight: 300;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
 }
 
 h2 {
   font-size: 34px;
-  line-height: 1.235px;
   letter-spacing: 0.25px;
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
 }
 
 h3 {
   font-size: 20px;
-  line-height: 1.6px;
   letter-spacing: 0.15px;
   font-weight: 500;
-  
+  margin-bottom: 0.25rem;
+  margin-top: 0;
 }
 
 .headshotImg {
-  height: 15rem;
+  /* height: 15rem; uncomment?*/
   -webkit-mask-image: radial-gradient(circle, black 55%, rgba(0, 0, 0, 0) 50%);
   mask-image: radial-gradient(circle, black 55%, rgba(0, 0, 0, 0) 50%);
   position: -webkit-sticky; /* Safari */
@@ -48,11 +103,11 @@ h3 {
   top: 10rem;
 }
 
-.img-container {
-  margin-top: 10rem;
+/* .img-container {uncomment?
+  margin-top: 10%;
   margin-left: 10%;
   text-align: center;
-}
+} */
 
 .flex-container {
   display: flex;
@@ -66,7 +121,7 @@ h3 {
 
 .content-container {
   scroll-snap-type: x mandatory;
-  margin-right: 15%;
+  /* margin-right: 15%; uncomment?*/
 }
 
 .icon-container {
@@ -96,23 +151,23 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  /* flex-flow: column wrap; uncomment?*/
+  /* align-items: center; uncomment?*/
 }
 
 #projectPortfolio {
   display: flex;
 }
 
-.projectInfo, .projectImage {
+.projectInfo {
   display: inline-block;
   margin-left: 1.5rem;
 }
 
-.projectInfo {
-  max-width: 75%;
-  /* margin-left: 1.5rem; */
-}
+/* .projectInfo {
+  max-width: 75%; uncomment?
+  margin-left: 1.5rem;
+} */
 
 .screenshot {
   height: 12rem;
